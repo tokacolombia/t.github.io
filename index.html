@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="icon" href="T O K A.png">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="nav-left">
+           <a class="linkedin" href="#nuevasllegadas2"> <div class="nav-item essential">Nuevo</div> </a>
+           <a class="linkedin" href="#nuevasllegadas2"> <div class="nav-item">Colecciones</div> </a>
+        </div>
+        <div class="nav-center">TOKA</div>
+        <div class="nav-right">
+         <a class="linkedin" href="#nuevasllegadas2">  <div class="nav-item essential">Comprar</div> </a>
+            <div class="nav-item essential cart-icon">
+            </div>
+        </div>
+    </div>
+<br><br><br><br>
+    <!-- Sección Hero -->
+    <div class="hero">
+        <img src="/modelovalengiaga.jfif" alt="Toka Collection Hero" class="hero-image">
+        <div class="collection-info">B - F<br>Coleccion Camisetas Originales</div>
+        <div class="shop-now">By F. 
+        </div>
+        <div class="product-title">↓</div>
+    </div>
+<br><br>
+    <!-- Sección de Nuevos Productos -->
+    <h2 id="nuevasllegadas2" class="section-title">Nuevas Llegadas</h2> <br><br>
+    <div id="nuevasllegadas" class="product-grid">
+        <div class="product-card" data-id="1">
+            <img src="/1.png" alt="Producto 1">
+            <div class="product-info">
+                <h3 class="product-name">Camiseta Oversize Drop CyberSigilism Blanco</h3>
+                <p class="product-price">$119.750 COP - $28.73 USD</p>
+            </div>
+            
+        </div>
+        <div class="product-card" data-id="2">
+            <img src="5.png" alt="Producto 2">
+            <div class="product-info">
+                <h3 class="product-name">Camiseta Oversize Dopr CyberSigilism Negro</h3>
+                <p class="product-price">$119.750 COP - $28.73 USD</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-column">
+            <h3>Toka</h3>
+            <a href="https://api.whatsapp.com/send?phone=+3043732343&text=Hola...%20Estoy%20interesado%20en%20trabajar%20con%20ustedes.%20Mi%20nombre%20y%20mi%20edad%20es:">Trabaja con Nosotros</a>
+        </div>
+        <div class="footer-column">
+            <h3>Ayuda</h3>
+            <a href="wa.me/+573043732343">Contacto</a>
+        </div>
+        <div class="footer-column">
+            <h3>Información Legal</h3>
+            <a href="/terminosycondiciones.html">Términos y Condiciones</a>
+        </div>
+       
+    </div>
+
+    <!-- Modal de Detalle de Producto con Galería -->
+    <div class="modal" id="productModal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <div class="modal-left">
+                <div class="product-gallery">
+                    <div class="main-image-container">
+                        <img src="" alt="Producto Detalle" class="modal-image" id="modalImage">
+                        <button class="gallery-nav prev-image">&lt;</button>
+                        <button class="gallery-nav next-image">&gt;</button>
+                    </div>
+                    <div class="thumbnail-container" id="thumbnailContainer">
+                        <!-- Los thumbnails se generarán dinámicamente con JavaScript -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-right">
+                <h2 class="modal-title" id="modalTitle">Nombre del Producto</h2>
+                <p class="modal-price" id="modalPrice">€0.00</p>
+                <p class="modal-description" id="modalDescription">
+                    Descripción detallada del producto. Aquí se mostrará información sobre materiales, ajuste, cuidados y otras características importantes del producto.
+                </p>
+                <div class="size-selector"> 
+                    <p>Talla:</p>
+                    <div class="size-options">
+                        <div class="size-option" data-size="XS">XS</div>
+                        <div class="size-option" data-size="S">S</div>
+                        <div class="size-option" data-size="M">M</div>
+                        <div class="size-option" data-size="L">L</div>
+                        <div class="size-option" data-size="XL">XL</div>
+                    </div>
+                </div>
+               <a href="https://api.whatsapp.com/send?phone=+3043732343&text=Hola,%20estoy%20interesado%20en%20la%20camiseta%20Oversize%20CyberSigilism.%20%C2%BFQu%C3%A9%20m%C3%A9todos%20de%20pago%20tienen%20disponibles?"> <button class="add-to-cart">Comprar</button> </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
