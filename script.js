@@ -5,9 +5,9 @@ const products = [
         price: "$119.750 COP - $28.73 USD",
         description: "Camiseta oversize con diseño exclusivo CyberSigilism. Confeccionada con algodón 100% orgánico de alta calidad. Corte holgado para un estilo urbano contemporáneo y máxima comodidad.",
         images: [
-            "/1.png",
-            "/2.png",
-            "/3.png",
+            "1.png",
+            "2.png",
+            "3.png",
         ]
     },
     {
@@ -16,9 +16,9 @@ const products = [
         price: "$119.750 COP - $28.73 USD",
         description: "Camiseta oversize con diseño exclusivo CyberSigilism. Confeccionada con algodón 100% orgánico de alta calidad. Corte holgado para un estilo urbano contemporáneo y máxima comodidad.",
         images: [
-            "/5.png",
-            "/6.png",
-            "/7.png",
+            "5.png",
+            "6.png",
+            "7.png",
         ]
     },
     {
